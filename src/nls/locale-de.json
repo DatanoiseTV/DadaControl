@@ -1,3 +1,7 @@
 {
-    "intro": "Konfiguriere jetzt deine DadaMachine."
+    "intro": "Willkommen beim DadaMachines Konfigurationsassistenten.",
+
+    "select_device": "MIDI-Gerät auswählen",
+    "select_mode": "Modus Konfigurieren",
+    "select_mode_text": "Standardmäßig wird die Hardware in einer Rhythmischen Konfiguration ausgeliefert. Diese eignet sich, um z.B. Drum Kits, zu bauen, ein Glockenspiel zu spielen oder Flaschen als Instrument zu nutzen. Möchtest du jedoch andere Oberflächen als Resonationsfläche nutzen und Melodien darauf spielen, erlaubt dies der PhysicalSynth Modus."
 }

@@ -51,6 +51,36 @@
       </div>
     </div>
 
+    <div class="config-wizard">
+      <div class="container">
+        <h1>
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa-stack-1x fa-inverse">1</i>
+        </span>
+            {{'select_device' | translate }}</h1>
+
+            <!-- <div class="form-group"> -->
+              <select class="form-control midisel" ng-model="activeDevice" ng-options="device.manufacturer + ' ' + device.name for device in devices">
+                  <option value="" disabled>Choose a MIDI device...</option>
+              </select>
+            <!-- </div> -->
+
+      </div>
+    </div>
+
+    <div class="config-wizard">
+      <div class="container">
+        <h1>
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa-stack-1x fa-inverse">2</i>
+        </span>
+            {{'select_mode' | translate }}</h1>
+          {{'select_mode_text' | translate }}
+      </div>
+    </div>
+
 
   </body>
 </html>

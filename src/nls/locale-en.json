@@ -1,3 +1,5 @@
 {
-    "intro": "Configure your DadaMachine now"
+    "intro": "Welcome to the DadaMachines Configuration Utility",
+
+    "select_device": "Select MIDI Device"
 }
