@@ -1,0 +1,29 @@
+{
+  "name": "dada-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1",
+    "lint": "jshint src/js && jscs src/js",
+    "build": "gulp build:copy && gulp build:vendor && npm run build:bundle",
+    "build:bundle": "browserify src/js/index.js -d | exorcist dist/index.js.map > dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DatanoiseTV/DadaControl.git"
+  },
+  "author": "DatanoiseTV <datanoise@ext.no-route.org>",
+  "license": "GPLv2",
+  "homepage": "https://github.com/DatanoiseTV/DadaControl",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "exorcist": "^0.4.0",
+    "gulp": "^3.9.0",
+    "ip": "^1.0.1"
+  },
+  "dependencies": {
+    "jscs": "^2.2.0",
+    "jshint": "^2.8.0"
+  }
+}

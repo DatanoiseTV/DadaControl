@@ -1,0 +1,6 @@
+.*.swp
+bower_components
+node_modules
+npm-debug.log
+gh-pages
+dist
