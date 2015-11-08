@@ -14,7 +14,7 @@
     "url": "https://github.com/DatanoiseTV/DadaControl.git"
   },
   "author": "DatanoiseTV <datanoise@ext.no-route.org>",
-  "license": "GPLv2",
+  "license": "GPL-2.0",
   "homepage": "https://github.com/DatanoiseTV/DadaControl",
   "devDependencies": {
     "browserify": "^11.2.0",
