@@ -2,8 +2,7 @@
 
 module.exports = function(app) {
   app.controller('DadaControl', [
-    '$scope', 'leafletData', '$http', '$filter', '$translate',
-    'jsonrpc',
+    '$scope', 'leafletData', '$http', '$filter', '$translate', 
     function($scope, leafletData, $http, $filter, $translate) {
 
       $scope.selectedLanguage = $translate.use();
